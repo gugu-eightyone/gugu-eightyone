@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">gugu-eightyone — AI Engineer</title>
+  <desc id="desc">Agent orchestration, retrieval, rules, and service connected as a workflow.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#30363d" stroke-width="1" opacity=".55"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="14" flood-color="#8b5cf6" flood-opacity=".2"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="26" fill="#0d1117"/>
+  <rect width="1200" height="300" rx="26" fill="url(#grid)"/>
+  <rect x="0" y="0" width="10" height="300" rx="5" fill="url(#accent)"/>
+
+  <g font-family="Inter, Pretendard, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="70" y="72" fill="#a78bfa" font-size="16" font-weight="700" letter-spacing="3">AI ENGINEER · LLM WORKFLOW &amp; RAG</text>
+    <text x="68" y="147" fill="#f0f6fc" font-size="58" font-weight="760" letter-spacing="-2">gugu-eightyone</text>
+    <text x="71" y="192" fill="#9da7b3" font-size="20" font-weight="500">Agent orchestration · Retrieval · Reliable boundaries</text>
+    <g transform="translate(70 230)">
+      <rect width="132" height="34" rx="17" fill="#2e2454"/>
+      <text x="66" y="22" text-anchor="middle" fill="#c4b5fd" font-size="13" font-weight="700">LANGGRAPH</text>
+      <rect x="144" width="76" height="34" rx="17" fill="#123f3b"/>
+      <text x="182" y="22" text-anchor="middle" fill="#5eead4" font-size="13" font-weight="700">RAG</text>
+      <rect x="232" width="104" height="34" rx="17" fill="#172f52"/>
+      <text x="284" y="22" text-anchor="middle" fill="#93c5fd" font-size="13" font-weight="700">PYTHON</text>
+    </g>
+  </g>
+
+  <g transform="translate(690 47)" filter="url(#glow)" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <path d="M112 48 C175 48 160 104 224 104" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <path d="M112 104 H224" fill="none" stroke="#2dd4bf" stroke-width="3"/>
+    <path d="M112 160 C175 160 160 104 224 104" fill="none" stroke="#60a5fa" stroke-width="3"/>
+    <path d="M334 104 H390" fill="none" stroke="url(#accent)" stroke-width="4"/>
+
+    <g>
+      <rect x="0" y="25" width="112" height="46" rx="14" fill="#161b22" stroke="#6d5da8" stroke-width="2"/>
+      <circle cx="22" cy="48" r="6" fill="#a78bfa"/>
+      <text x="62" y="54" text-anchor="middle" fill="#d8dee7" font-size="13" font-weight="700">AGENTS</text>
+    </g>
+    <g>
+      <rect x="0" y="81" width="112" height="46" rx="14" fill="#161b22" stroke="#277d73" stroke-width="2"/>
+      <circle cx="22" cy="104" r="6" fill="#2dd4bf"/>
+      <text x="62" y="110" text-anchor="middle" fill="#d8dee7" font-size="13" font-weight="700">RAG</text>
+    </g>
+    <g>
+      <rect x="0" y="137" width="112" height="46" rx="14" fill="#161b22" stroke="#3f6ea6" stroke-width="2"/>
+      <circle cx="22" cy="160" r="6" fill="#60a5fa"/>
+      <text x="62" y="166" text-anchor="middle" fill="#d8dee7" font-size="13" font-weight="700">RULES</text>
+    </g>
+    <g>
+      <rect x="224" y="76" width="110" height="56" rx="18" fill="url(#accent)"/>
+      <text x="279" y="110" text-anchor="middle" fill="#0d1117" font-size="14" font-weight="800">WORKFLOW</text>
+    </g>
+    <g>
+      <rect x="390" y="76" width="102" height="56" rx="18" fill="#161b22" stroke="#6e7681" stroke-width="2"/>
+      <text x="441" y="110" text-anchor="middle" fill="#f0f6fc" font-size="14" font-weight="800">SERVICE</text>
+    </g>
+  </g>
+</svg>
