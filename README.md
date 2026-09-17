@@ -5,21 +5,41 @@
 </picture>
 
 <div align="center">
-<br />
-<strong>LLM의 자율성을 살리면서도, 서비스의 규칙 안에서 작동하도록 설계합니다.</strong>
+  <h2>LLM의 자율성을 살리면서도,<br />서비스의 규칙 안에서 작동하도록 설계합니다.</h2>
+  <p>에이전트의 역할을 나누고, 필요한 근거를 연결하며, 결과를 검증하는 LLM 워크플로우에 관심이 있습니다.</p>
 </div>
 
-## What I Care About
+<br />
 
-여러 에이전트의 역할을 나누고, RAG로 필요한 근거를 제공하며, 검증 로직으로 결과를 점검하는 LLM 워크플로우에 관심이 있습니다.
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>01 · ORCHESTRATION</strong><br /><br />
+      여러 에이전트가 각자의 역할에 따라 판단하고 협력하도록 흐름을 설계합니다.
+    </td>
+    <td width="33%" valign="top">
+      <strong>02 · GROUNDING</strong><br /><br />
+      RAG로 필요한 근거와 맥락을 제공해 LLM의 판단을 보완합니다.
+    </td>
+    <td width="33%" valign="top">
+      <strong>03 · GUARDRAILS</strong><br /><br />
+      검증 로직과 명시적인 규칙으로 결과를 점검하고 서비스의 경계를 만듭니다.
+    </td>
+  </tr>
+</table>
 
-## Toolbox
+<div align="center">
+  <sub><strong>MAIN STACK</strong></sub><br />
+  <code>Python</code>&nbsp; <code>LangGraph</code>&nbsp; <code>RAG</code>&nbsp; <code>OpenAI API</code>
+  <br /><br />
+  <sub><strong>HANDS-ON EXPERIENCE</strong></sub><br />
+  <code>FastAPI</code>&nbsp; <code>Django</code>&nbsp; <code>Qdrant</code>&nbsp; <code>MySQL</code>&nbsp; <code>Docker</code>&nbsp; <code>AWS EC2</code>
+  <br /><br />
+  <sub><strong>ADDITIONAL</strong></sub><br />
+  <code>Streamlit</code>&nbsp; <code>pytest</code>&nbsp; <code>Git</code>&nbsp; <code>HTML</code>&nbsp; <code>CSS</code>&nbsp; <code>JavaScript</code>
+</div>
 
-| Level | Tools |
-|---|---|
-| **Main Stack** | Python, LangGraph, RAG, OpenAI API |
-| **Hands-on Experience** | FastAPI, Django, Qdrant, MySQL, Docker, AWS EC2 |
-| **Additional** | Streamlit, pytest, Git, HTML, CSS, JavaScript |
+<br />
 
 ## Featured Projects
 
