@@ -1,13 +1,12 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./profile-assets/banner-light.svg">
+  <img alt="gugu-eightyone — AI Engineer, LLM Workflow & RAG" src="./profile-assets/banner-light.svg" width="100%">
+</picture>
+
 <div align="center">
-
-# gugu-eightyone
-
-### AI Engineer · LLM Workflow & RAG
-
-**LLM의 자율성을 살리면서도, 서비스의 규칙 안에서 작동하도록 설계합니다.**
-
-Designing LLM workflows where model autonomy meets reliable software boundaries.
-
+<br />
+<strong>LLM의 자율성을 살리면서도, 서비스의 규칙 안에서 작동하도록 설계합니다.</strong>
 </div>
 
 ## What I Care About
@@ -22,9 +21,9 @@ Designing LLM workflows where model autonomy meets reliable software boundaries.
 | **Hands-on Experience** | FastAPI, Django, Qdrant, MySQL, Docker, AWS EC2 |
 | **Additional** | Streamlit, pytest, Git, HTML, CSS, JavaScript |
 
-## Selected Projects
+## Featured Projects
 
-### 🌏 [w.LiGHTER](https://github.com/gugu-eightyone/w-lighter_model-server)
+### 01 · [w.LiGHTER](https://github.com/gugu-eightyone/w-lighter_model-server)
 
 한국 웹소설을 영어·일본어·중국어·태국어로 번역하고 현지화를 지원하는 SaaS입니다.  
 3인으로 구성된 AI 모델 팀에서 **번역 파이프라인의 설계와 구현**을 담당했습니다.
@@ -37,7 +36,7 @@ Designing LLM workflows where model autonomy meets reliable software boundaries.
 
 ---
 
-### ⚔️ [LLM Game — Romance of the Three Kingdoms](https://github.com/gugu-eightyone/LLM_Game-Romance_Of_Three_Kingdoms)
+### 02 · [LLM Game — Romance of the Three Kingdoms](https://github.com/gugu-eightyone/LLM_Game-Romance_Of_Three_Kingdoms)
 
 스스로 판단하고 행동하는 LLM 세력과 경쟁하는 삼국지 전략 시뮬레이션입니다.  
 개인 프로젝트로 기획부터 시스템 설계와 구현까지 진행했습니다.
@@ -51,13 +50,13 @@ Designing LLM workflows where model autonomy meets reliable software boundaries.
 
 ---
 
-### 🏠 [AI 부동산 계약 조항 검토 서비스](https://github.com/aigo-youth/aigo-ai)
+### 03 · [아이고 청년](https://github.com/aigo-youth/aigo-ai)
 
-법령·판례·법령해석례를 근거로 임대차 계약의 특약과 사용자 질문을 검토하는 팀 프로젝트입니다.
+법령·판례·법령해석례를 검색해 임대차 계약의 특약과 사용자 질문을 검토하는 RAG 기반 팀 프로젝트입니다.
 
-- 판례 1,700여 건을 수집·정제하고 청킹 전략 3종을 비교해 약 3만 청크 규모의 검색 데이터를 구축했습니다.
-- 민감정보 탐지, 의도 분석, 검색용 질문 재작성과 관련도 fallback을 포함한 LangGraph 입력단을 설계했습니다.
-- 후속 [Django 웹 서버](https://github.com/aigo-youth/aigo-server)에서는 계약서 앱의 모델, API 4종, 권한 검증, 단위 테스트 9종과 업로드·편집 UI를 구현했습니다.
+1. **판례 검색 데이터 구축:** 국가법령정보센터에서 판례 1,717건을 수집·정제했습니다. 세 가지 청킹 방식을 실험해 `RecursiveCharacterTextSplitter`를 채택하고, 30,035개 청크를 임베딩해 Qdrant에 적재했습니다.
+2. **LangGraph 입력 단계 설계:** 개인정보를 정규식으로 탐지하고, 사용자의 질문에서 의도와 검색할 문서 유형을 분석해 검색용 질의로 재작성하는 초기 입력 단계를 구현했습니다. 검색 결과가 관련도 기준에 미치지 못하면 답변 생성을 중단하는 분기도 구성했습니다.
+3. **계약서 앱 구현:** 후속 [아이고 청년 웹 서버](https://github.com/aigo-youth/aigo-server)에서는 계약서 앱을 맡아 PDF 업로드와 계약 정보·특약 편집 UI를 만들고, 이를 위한 데이터 모델과 기본 API, 사용자 권한 검사를 구현했습니다.
 
 **AI / Data:** `Python` `LangGraph` `RAG` `Qdrant` `OpenAI API`  
 **Backend / Web:** `FastAPI` `Django` `HTML` `CSS` `JavaScript`
