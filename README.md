@@ -9,37 +9,36 @@
   <p>에이전트의 역할을 나누고, 필요한 근거를 연결하며, 결과를 검증하는 LLM 워크플로우에 관심이 있습니다.</p>
 </div>
 
-<br />
+<br /><br />
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>01 · ORCHESTRATION</strong><br /><br />
-      여러 에이전트가 각자의 역할에 따라 판단하고 협력하도록 흐름을 설계합니다.
-    </td>
-    <td width="33%" valign="top">
-      <strong>02 · GROUNDING</strong><br /><br />
-      RAG로 필요한 근거와 맥락을 제공해 LLM의 판단을 보완합니다.
-    </td>
-    <td width="33%" valign="top">
-      <strong>03 · GUARDRAILS</strong><br /><br />
-      검증 로직과 명시적인 규칙으로 결과를 점검하고 서비스의 경계를 만듭니다.
-    </td>
-  </tr>
-</table>
+## How I Build
 
-<div align="center">
-  <sub><strong>MAIN STACK</strong></sub><br />
-  <code>Python</code>&nbsp; <code>LangGraph</code>&nbsp; <code>RAG</code>&nbsp; <code>OpenAI API</code>
-  <br /><br />
-  <sub><strong>HANDS-ON EXPERIENCE</strong></sub><br />
-  <code>FastAPI</code>&nbsp; <code>Django</code>&nbsp; <code>Qdrant</code>&nbsp; <code>MySQL</code>&nbsp; <code>Docker</code>&nbsp; <code>AWS EC2</code>
-  <br /><br />
-  <sub><strong>ADDITIONAL</strong></sub><br />
-  <code>Streamlit</code>&nbsp; <code>pytest</code>&nbsp; <code>Git</code>&nbsp; <code>HTML</code>&nbsp; <code>CSS</code>&nbsp; <code>JavaScript</code>
-</div>
+### <sub>01</sub>&ensp;ORCHESTRATION
+
+여러 에이전트가 각자의 역할에 따라 판단하고, 결과가 다음 단계로 이어지도록 흐름을 설계합니다.
+
+### <sub>02</sub>&ensp;GROUNDING
+
+RAG로 필요한 근거와 맥락을 제공해 LLM의 판단을 보완합니다.
+
+### <sub>03</sub>&ensp;GUARDRAILS
+
+검증 로직과 명시적인 규칙으로 결과를 점검하고 예외 상황을 다룹니다.
 
 <br />
+
+## Toolbox
+
+**Main Stack**<br />
+`Python` `LangGraph` `RAG` `OpenAI API`
+
+**Hands-on Experience**<br />
+`FastAPI` `Django` `Qdrant` `MySQL` `Docker` `AWS EC2`
+
+**Additional**<br />
+`Streamlit` `pytest` `Git` `HTML` `CSS` `JavaScript`
+
+<br /><br />
 
 ## Featured Projects
 
